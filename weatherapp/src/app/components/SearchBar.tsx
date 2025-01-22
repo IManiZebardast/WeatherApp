@@ -6,13 +6,16 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { DisplaySettings } from '@mui/icons-material';
 export default function SearchBar(){
     return(
         <>
-<Paper
+
+<div className='w-full sm:w-full md:w-full lg:w-full xl:w-full'>
+  <Paper 
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
-    >
+      sx={{ p: '2px 4px', display: 'Flex', alignItems: 'center', width: 400 ,}}
+      >
       <IconButton sx={{ p: '10px' }} aria-label="menu">
         <MenuIcon />
       </IconButton>
@@ -29,6 +32,8 @@ export default function SearchBar(){
         <LocationOnIcon />
       </IconButton>
     </Paper>
+        </div>
         </>
+
     )
 }

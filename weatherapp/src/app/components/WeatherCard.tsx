@@ -10,8 +10,9 @@ export default function WeatherCard(){
     return(
         <>
 
-
-    <Card sx={{ maxWidth: 345 }}>
+<div>
+    <Card
+    sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -34,6 +35,7 @@ export default function WeatherCard(){
         </Button>
       </CardActions>
     </Card>
+      </div>
         </>
     )
 }

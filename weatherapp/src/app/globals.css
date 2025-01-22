@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  div{
+    @apply'w-full sm:w-full md:w-full lg:w-full xl:w-full'
+  }
+}
+
 :root {
   --background: #FFFFFF;
   --foreground: #171717;
