@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  div{
-    @apply'w-full sm:w-full md:w-full lg:w-full xl:w-full'
-  }
-}
+
+
+  
+
+
 
 :root {
   --background: #FFFFFF;
@@ -21,6 +21,7 @@
 }
 
 body {
+  class-name:  @apply'w-full sm:w-full md:w-full lg:w-full xl:w-full';
   background: linear-gradient(to bottom, #87CEFA, #00BFFF);
   background-size: cover;
   height: 100vh;
