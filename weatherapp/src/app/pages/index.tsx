@@ -1,12 +1,14 @@
 import React from "react";
 
-export default function Home(){
+export default function Index(){
+    return(
+            <>
 
-    return( 
-        <h1>
-     why
-     </h1> 
-     
+    <div>
+      <h1>Welcome to my Next.js App!</h1>
+      <p>This is the default page.</p>
+    </div>
+  
+            </>
     )
 }
-
